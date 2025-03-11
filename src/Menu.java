@@ -2,6 +2,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
+import eleve.MenuEleve;
+import professeur.MenuProfesseur;
+
 public class Menu {
     public static void afficherMenu(Scanner scanner) {
         // Récupérer la date et l'heure système

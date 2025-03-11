@@ -1,4 +1,4 @@
-package eleve; // Assure-toi que le package est bien défini
+package eleve; // Déclarer que cette classe appartient au package eleve
 
 public class Eleve {
     private String nom;
@@ -6,6 +6,7 @@ public class Eleve {
     private int age;
     private String classe;
 
+    // Constructeur
     public Eleve(String nom, String prenom, int age, String classe) {
         this.nom = nom;
         this.prenom = prenom;
@@ -13,6 +14,7 @@ public class Eleve {
         this.classe = classe;
     }
 
+    // Getters et Setters
     public String getNom() { return nom; }
     public void setNom(String nom) { this.nom = nom; }
 

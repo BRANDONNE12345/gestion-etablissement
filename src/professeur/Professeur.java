@@ -1,4 +1,4 @@
-package eleve.professeur;
+package professeur; // Déclarer le package
 
 public class Professeur {
     private String nom;
